@@ -1,0 +1,23 @@
+{
+    "parent": "ad:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:armor_stand"
+        },
+        "title": "Floating Texts",
+        "description": [
+            {
+                "text": "Floating Texts",
+                "color": "gold"
+            }
+        ],
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
