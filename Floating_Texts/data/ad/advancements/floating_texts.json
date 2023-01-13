@@ -6,8 +6,13 @@
         },
         "title": "Floating Texts",
         "description": [
+            "",
             {
-                "text": "Floating Texts",
+                "text": "To obtain the book (that allows you to use the functionalities of the datapack),\nenter ",
+                "color": "gray"
+            },
+            {
+                "text": "'/function floating_texts:get_book'",
                 "color": "gold"
             }
         ],
