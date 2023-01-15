@@ -1,0 +1,36 @@
+{
+    "parent": "ad:floating_texts",
+    "display": {
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "title": "book_crafting_ft",
+        "description": "",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "has_book": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:written_book"
+                        ],
+                        "nbt": "{title:\"FT\"}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_book"
+        ]
+    ],
+    "rewards": {
+        "function": "floating_texts:help/replace_book"
+    }
+}

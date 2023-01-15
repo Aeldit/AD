@@ -1,6 +1,6 @@
 "{
   CustomModelData:9, 
-  title:\"Floating Texts V1.0\",
+  title:\"Floating Texts V1.1\",
   author:\"Aeldit\",
   datapack:\"Floating Texts\",
   pages: [
