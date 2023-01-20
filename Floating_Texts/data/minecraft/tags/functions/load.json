@@ -1,5 +1,6 @@
 {
   "values": [
-    "floating_texts:load"
+    "floating_texts:load",
+    "floating_texts:tick"
   ]
 }

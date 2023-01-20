@@ -4,9 +4,13 @@
 ##
 # Scoreboards initialisation
 scoreboard objectives add ft_settings trigger
+scoreboard objectives add ft_color trigger
+scoreboard objectives add ft_decoration trigger
 
 # Resets on reload
 scoreboard players enable * ft_settings
+scoreboard players enable * ft_color
+scoreboard players enable * ft_decoration
 
 # Storage
 execute unless data storage floating_texts:settings ft_settings.msg_to_action_bar run data modify storage floating_texts:settings ft_settings.msg_to_action_bar set value "ON"
