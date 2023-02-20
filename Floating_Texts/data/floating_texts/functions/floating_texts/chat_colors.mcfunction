@@ -2,6 +2,9 @@
  # Description:	Displays the text options in the plaer's chat
  # Called by:	Player
 ##
+scoreboard players set @s ft_chat_color 0
+scoreboard players enable @s ft_chat_color
+
 tellraw @s [{"text":"--------------------------","color":"gold","bold":true}]
 tellraw @s [{"text":"Floating Texts - TEXT OPTIONS\n","color":"gold","bold":true}]
 

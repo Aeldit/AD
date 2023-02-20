@@ -7,7 +7,10 @@ tellraw @s [{"text":"--------------------------","color":"gold","bold":true}]
 tellraw @s [{"text": "Floating Texts - HELP\n","color":"gold","bold": true}]
 
 tellraw @s [{"text":"Get the book","color":"aqua", "hoverEvent":{"action":"show_text", "contents":{"text":"Click to get the book", "color":"yellow"}},"clickEvent": {"action": "run_command","value": "/function floating_texts:help/get_book"}}]
-tellraw @s [{"text":"Settings","color":"aqua", "hoverEvent":{"action":"show_text", "contents":{"text":"Click to show the settings", "color":"yellow"}},"clickEvent": {"action": "run_command","value": "/function floating_texts:settings/settings"}}]
+
+tellraw @s [{"text":"\nTo get the chat coloring options in the chat, enter '/trigger ft_chat_color set 1' or click this text","color":"aqua", "hoverEvent":{"action":"show_text", "contents":{"text":"Click to get the text coloring options in the chat", "color":"yellow"}},"clickEvent": {"action": "run_command","value": "/trigger ft_chat_color set 1"}}]
+
+tellraw @s [{"text":"\nSettings","color":"aqua", "hoverEvent":{"action":"show_text", "contents":{"text":"Click to show the settings", "color":"yellow"}},"clickEvent": {"action": "run_command","value": "/function floating_texts:settings/settings"}}]
 
 tellraw @s [{"text":"\nCredits","color":"aqua", "hoverEvent":{"action":"show_text", "contents":{"text":"Click to show the credits", "color":"yellow"}},"clickEvent": {"action": "run_command","value": "/function floating_texts:credits"}}]
 

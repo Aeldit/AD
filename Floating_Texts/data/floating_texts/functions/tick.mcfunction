@@ -6,3 +6,5 @@ schedule function floating_texts:tick 6t
 
 execute as @a[scores={ft_color=1..}] at @s run function floating_texts:floating_texts/set_color
 execute as @a[scores={ft_decoration=1..}] at @s run function floating_texts:floating_texts/set_decoration
+
+execute as @a[scores={ft_chat_color=1}] at @s run function floating_texts:floating_texts/chat_colors

@@ -6,13 +6,15 @@
 scoreboard objectives add ft_settings trigger
 scoreboard objectives add ft_color trigger
 scoreboard objectives add ft_decoration trigger
+scoreboard objectives add ft_chat_color trigger
 
 # Resets on reload
 scoreboard players enable * ft_settings
 scoreboard players enable * ft_color
 scoreboard players enable * ft_decoration
+scoreboard players enable * ft_chat_color
 
-# Revokes advancements that are used to detect things (they are sometimes not revoked correctly so reloading resolves the problem
+# Revokes advancements that are used to detect things (they are sometimes not revoked correctly so reloading resolves the problem)
 advancement revoke @a only ad:ft_armor_stand_click
 advancement revoke @a only ad:ft_book_crafting
 
