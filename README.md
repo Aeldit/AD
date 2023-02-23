@@ -1,5 +1,7 @@
 # This is the documentation for my packs
 
+> To uninstall any of the following packs, enter ```/function <datapack_name>:uninstall```
+
 <img src="images/ft_logo.png" width="178" />
 
 ![dowload_FT][def__download_FT]
