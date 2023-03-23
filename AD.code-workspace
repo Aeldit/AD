@@ -4,7 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "../../../../AppData/Roaming/PrismLauncher/instances/1.19.3/.minecraft/saves/New World/datapacks/Floating_Texts"
+			"path": "../../../../AppData/Roaming/PrismLauncher/instances/1.19.4/.minecraft/saves/Tests/datapacks/Floating_Texts"
+		},
+		{
+			"path": "../../../../AppData/Roaming/PrismLauncher/instances/1.19.4/.minecraft/.quilt/remappedJars/minecraft-1.19.4-0.18.5/data"
 		}
 	],
 	"settings": {}
