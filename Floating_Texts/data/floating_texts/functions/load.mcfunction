@@ -21,6 +21,37 @@ scoreboard objectives remove ft_chat_color
 advancement revoke @a only ad:ft_armor_stand_click
 advancement revoke @a only ad:ft_book_crafting
 
+advancement revoke @a only ad:ft_1_dark_red
+advancement revoke @a only ad:ft_2_red
+advancement revoke @a only ad:ft_3_gold
+advancement revoke @a only ad:ft_4_yellow
+advancement revoke @a only ad:ft_5_dark_green
+advancement revoke @a only ad:ft_6_green
+advancement revoke @a only ad:ft_7_light_blue
+advancement revoke @a only ad:ft_8_cyan
+advancement revoke @a only ad:ft_9_dark_blue
+advancement revoke @a only ad:ft_10_blue
+advancement revoke @a only ad:ft_11_pink
+advancement revoke @a only ad:ft_12_purple
+advancement revoke @a only ad:ft_13_white
+advancement revoke @a only ad:ft_14_light_gray
+advancement revoke @a only ad:ft_15_gray
+advancement revoke @a only ad:ft_16_black
+
+advancement revoke @a only ad:ft_reset_target
+advancement revoke @a only ad:ft_locate_target
+
+advancement revoke @a only ad:ft_d_1_bold_on
+advancement revoke @a only ad:ft_d_2_bold_off
+advancement revoke @a only ad:ft_d_3_italic_on
+advancement revoke @a only ad:ft_d_4_italic_off
+advancement revoke @a only ad:ft_d_5_obfuscated_on
+advancement revoke @a only ad:ft_d_6_obfuscated_off
+advancement revoke @a only ad:ft_d_7_strikethrough_on
+advancement revoke @a only ad:ft_d_8_strikethrough_off
+advancement revoke @a only ad:ft_d_9_underlined_on
+advancement revoke @a only ad:ft_d_10_underlined_off
+
 # Storage
 execute unless data storage floating_texts:settings ft_settings.msg_to_action_bar run data modify storage floating_texts:settings ft_settings.msg_to_action_bar set value "ON"
 execute unless data storage floating_texts:settings ft_settings.book_crafting run data modify storage floating_texts:settings ft_settings.book_crafting set value "ON"

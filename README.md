@@ -8,7 +8,11 @@
 
 ## This datapack allows you to create floating texts, which is is made by renaming an armor stand with a name tag
 
-You can then change the color and the decoration (bold, underlined, ...) of the text
+You can then change the color and the decoration (bold, underlined, ...) of the text in 3 different ways :
+
+- With the book, that can be obtained in survival but requires the minimum OP level for commands
+- With the chat, which also requires the function commands permission
+- With dyes (and other items that are easy to obtain in survival), which is fully survival and does not require any OP permission
 
 > Here are the different options (you can change them with the book or in the chat)
 

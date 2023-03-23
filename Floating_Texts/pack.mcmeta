@@ -1,13 +1,13 @@
 {
     "pack": {
-        "pack_format": 12,
+        "pack_format": 13,
         "description": [
             {
                 "text": "Floating Texts",
                 "color": "gold"
             },
             {
-                "text": " MC 1.19.x",
+                "text": " MC 1.19.4",
                 "color": "dark_aqua"
             },
             {

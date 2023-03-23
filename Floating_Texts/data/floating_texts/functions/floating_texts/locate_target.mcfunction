@@ -3,4 +3,5 @@
  # Called by:   Book
 ##
 
-effect give @e[type=armor_stand,distance=..2,limit=1,sort=nearest] glowing 5 1 true
+effect give @e[type=armor_stand,distance=..3,limit=1,sort=nearest] glowing 5 1 true
+advancement revoke @s only ad:ft_locate_target
