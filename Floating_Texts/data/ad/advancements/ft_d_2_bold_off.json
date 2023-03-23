@@ -4,7 +4,7 @@
         "icon": {
             "item": "minecraft:red_dye"
         },
-        "title": "ft_text",
+        "title": "ft_2_bold_off",
         "description": "",
         "show_toast": false,
         "announce_to_chat": false,
@@ -24,7 +24,27 @@
                             "equipment": {
                                 "mainhand": {
                                     "items": [
-                                        "minecraft:name_tag"
+                                        "minecraft:iron_ingot"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        },
+        "state": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "offhand": {
+                                    "items": [
+                                        "minecraft:red_concrete"
                                     ]
                                 }
                             }
@@ -38,9 +58,12 @@
     "requirements": [
         [
             "is_sneaking_with_item"
+        ],
+        [
+            "state"
         ]
     ],
     "rewards": {
-        "function": "floating_texts:text_display/text_display"
+        "function": "floating_texts:floating_texts/deco/2_bold_off"
     }
 }

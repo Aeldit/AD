@@ -1,6 +1,6 @@
 ##
  # Description: Places a sign with the targeted armor stand's text and the selected color, then sets this text back on the armor stand
- # Called by:   #floating_texts:tick
+ # Called by:   #ad:advancements
 ##
 # Adds the selected tag to the targeted armor stand
 tag @e[type=armor_stand,distance=..3,limit=1,sort=nearest] add sp_selected
