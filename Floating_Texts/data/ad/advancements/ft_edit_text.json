@@ -1,0 +1,33 @@
+{
+    "parent": "ad:floating_texts",
+    "display": {
+        "icon": {
+            "item": "minecraft:red_dye"
+        },
+        "title": "ft_text",
+        "description": "",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "use_item": {
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:name_tag"
+                    ]
+                }
+            },
+            "trigger": "minecraft:using_item"
+        }
+    },
+    "requirements": [
+        [
+            "use_item"
+        ]
+    ],
+    "rewards": {
+        "function": "floating_texts:text_display/text_edit"
+    }
+}
