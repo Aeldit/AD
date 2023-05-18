@@ -64,6 +64,6 @@
         ]
     ],
     "rewards": {
-        "function": "floating_texts:floating_texts/deco/6_obfuscated_off"
+        "function": "floating_texts:text_display/deco/6_obfuscated_off"
     }
 }

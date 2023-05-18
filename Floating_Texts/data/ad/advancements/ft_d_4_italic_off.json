@@ -64,6 +64,6 @@
         ]
     ],
     "rewards": {
-        "function": "floating_texts:floating_texts/deco/4_italic_off"
+        "function": "floating_texts:text_display/deco/4_italic_off"
     }
 }

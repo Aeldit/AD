@@ -4,7 +4,7 @@
         "icon": {
             "item": "minecraft:writable_book"
         },
-        "title": "ft_book_crafting",
+        "title": "ft_0_book_crafting",
         "description": "",
         "show_toast": false,
         "announce_to_chat": false,

@@ -41,6 +41,6 @@
         ]
     ],
     "rewards": {
-        "function": "floating_texts:floating_texts/dye/13_white"
+        "function": "floating_texts:text_display/dye/13_white"
     }
 }

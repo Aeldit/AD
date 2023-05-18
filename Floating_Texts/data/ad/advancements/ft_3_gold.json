@@ -41,6 +41,6 @@
         ]
     ],
     "rewards": {
-        "function": "floating_texts:floating_texts/dye/3_gold"
+        "function": "floating_texts:text_display/dye/3_gold"
     }
 }

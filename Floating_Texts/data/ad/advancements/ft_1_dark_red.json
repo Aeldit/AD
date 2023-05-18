@@ -64,6 +64,6 @@
         ]
     ],
     "rewards": {
-        "function": "floating_texts:floating_texts/dye/1_dark_red"
+        "function": "floating_texts:text_display/dye/1_dark_red"
     }
 }

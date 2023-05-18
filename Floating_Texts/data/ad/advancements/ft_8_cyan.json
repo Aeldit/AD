@@ -41,6 +41,6 @@
         ]
     ],
     "rewards": {
-        "function": "floating_texts:floating_texts/dye/8_cyan"
+        "function": "floating_texts:text_display/dye/8_cyan"
     }
 }

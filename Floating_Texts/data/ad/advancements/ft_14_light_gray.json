@@ -41,6 +41,6 @@
         ]
     ],
     "rewards": {
-        "function": "floating_texts:floating_texts/dye/14_light_gray"
+        "function": "floating_texts:text_display/dye/14_light_gray"
     }
 }

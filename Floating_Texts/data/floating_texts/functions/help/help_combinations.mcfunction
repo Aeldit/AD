@@ -6,7 +6,7 @@
 tellraw @s [{"text":"--------------------------","color":"gold","bold":true}]
 tellraw @s [{"text": "Floating Texts - COMBINATIONS\n","color":"gold","bold": true}]
 
-tellraw @s [{"text":"To set the color on the armor stand's text, go in a radius of max 3 blocks from it and press your sneak key with the dye you want in your main hand (when 2 dyes are required, put the second one in your offhand\n","color":"white","bold":false}]
+tellraw @s [{"text":"To set the color on the text display's text, go in a radius of max 3 blocks from it and press your sneak key with the dye you want in your main hand (when 2 dyes are required, put the second one in your offhand\n","color":"white","bold":false}]
 
 tellraw @s [{"text":"Example: Dye1 | Dye2 (Mainhand | Offhand)\n","color":"white","bold":false}]
 
@@ -37,8 +37,5 @@ tellraw @s [{"text":"- ","color":"gold"},{"text":"Strikethrough :","color":"whit
 tellraw @s [{"text":"- ","color":"gold"},{"text":"Strikethrough :","color":"white","strikethrough": false},{"text":" OFF ","color": "red"},{"text":"► gold nugget | red concrete"}]
 tellraw @s [{"text":"- ","color":"gold"},{"text":"Underlined :","color":"white","underlined": true},{"text":" ON ","color": "green"},{"text":"► copper ingot | lime concrete"}]
 tellraw @s [{"text":"- ","color":"gold"},{"text":"Underlined :","color":"white","underlined": false},{"text":" OFF ","color": "red"},{"text":"► copper ingot | red concrete"}]
-
-tellraw @s [{"text":"\n- ","color":"gold"},{"text":"Locate the armor stand :","color":"white"},{"text":" "},{"text":"stick | ✖"}]
-tellraw @s [{"text":"- ","color":"gold"},{"text":"Reset the armor stand's properties (invisibility, invulnerability, ...) :","color":"white"},{"text":" "},{"text":"flint | ✖"}]
 
 tellraw @s [{"text":"--------------------------","color":"gold","bold":true}]

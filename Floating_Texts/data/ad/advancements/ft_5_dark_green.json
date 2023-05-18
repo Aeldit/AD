@@ -41,6 +41,6 @@
         ]
     ],
     "rewards": {
-        "function": "floating_texts:floating_texts/dye/5_dark_green"
+        "function": "floating_texts:text_display/dye/5_dark_green"
     }
 }

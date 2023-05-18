@@ -64,6 +64,6 @@
         ]
     ],
     "rewards": {
-        "function": "floating_texts:floating_texts/deco/9_underlined_on"
+        "function": "floating_texts:text_display/deco/9_underlined_on"
     }
 }

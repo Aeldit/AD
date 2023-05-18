@@ -6,20 +6,22 @@
 scoreboard objectives add ft_settings trigger
 scoreboard objectives add ft_color trigger
 scoreboard objectives add ft_decoration trigger
-scoreboard objectives add ft_edit_settings trigger
+scoreboard objectives add ft_options trigger
+scoreboard objectives add ft_help trigger
 
 # Resets on reload
 scoreboard players enable * ft_settings
 scoreboard players enable * ft_color
 scoreboard players enable * ft_decoration
-scoreboard players enable * ft_edit_settings
+scoreboard players enable * ft_options
+scoreboard players enable * ft_help
 
 # Temp
 scoreboard objectives remove ft_chat_color
+scoreboard objectives remove ft_edit_settings
 
 # Revokes advancements that are used to detect things (they are sometimes not revoked correctly so reloading resolves the problem)
-advancement revoke @a only ad:ft_armor_stand_click
-advancement revoke @a only ad:ft_book_crafting
+advancement revoke @a only ad:ft_0_book_crafting
 
 advancement revoke @a only ad:ft_1_dark_red
 advancement revoke @a only ad:ft_2_red
@@ -56,7 +58,6 @@ advancement revoke @a only ad:ft_d_10_underlined_off
 execute unless data storage floating_texts:settings ft_settings.msg_to_action_bar run data modify storage floating_texts:settings ft_settings.msg_to_action_bar set value "ON"
 execute unless data storage floating_texts:settings ft_settings.book_crafting run data modify storage floating_texts:settings ft_settings.book_crafting set value "ON"
 execute unless data storage floating_texts:settings ft_settings.auto_show_title run data modify storage floating_texts:settings ft_settings.auto_show_title set value "ON"
-execute unless data storage floating_texts:settings ft_settings.show_reload_message run data modify storage floating_texts:settings ft_settings.show_reload_message set value "ON"
 execute unless data storage floating_texts:settings ft_settings.show_help_msg_on_reload run data modify storage floating_texts:settings ft_settings.show_help_msg_on_reload set value "ON"
 
 # Notifies in the chat that the datapack has been reloaded
