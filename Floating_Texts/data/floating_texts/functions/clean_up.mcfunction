@@ -1,6 +1,6 @@
 ##
- # Description: REmoves the different things that were used but are now useless
- # Called by:   #floating_texts:load
+ # Description: Removes the different things that were used but are now useless
+ # Called by:   #function -> floating_texts:load
 ##
 
 execute if data storage floating_texts:settings ft_settings.auto_show_title run data remove storage floating_texts:settings ft_settings.auto_show_title

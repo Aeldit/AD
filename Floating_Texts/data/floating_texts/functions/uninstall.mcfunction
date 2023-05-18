@@ -1,3 +1,7 @@
+##
+ # Description: Must be run before removing the datapack because it removes all the things added by the pack (they are not removed when removing a pack from a world)
+ # Called by:   #function -> floating_texts:help/help
+##
 
 schedule clear floating_texts:tick
 

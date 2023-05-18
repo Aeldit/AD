@@ -1,7 +1,8 @@
 ##
  # Description:  Sends a messages to @a when the /reload command have been executed. Sets SCOREBOARDS and STORAGE
- # Called by:    #minecraft:load
+ # Called by:    #function -> minecraft:load
 ##
+
 # Scoreboards initialisation
 scoreboard objectives add ft_settings trigger
 scoreboard objectives add ft_color trigger

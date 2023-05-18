@@ -1,6 +1,7 @@
 ##
  # Description: Shows the credits to the player
- # Called by:   Book
+ # Called by:   #loot_table -> floating_texts:book.json
+                #function   -> floating_texts:help/help
 ##
 
 tellraw @s [{"text":"--------------------------","color":"gold","bold":true}]

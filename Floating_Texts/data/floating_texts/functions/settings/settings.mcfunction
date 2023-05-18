@@ -1,7 +1,9 @@
 ##
  # Description:	Displays the options in the chat
- # Called by:	Player
+ # Called by:	#function -> floating_texts:trigger_settings
+                #function -> floating_texts:help/help
 ##
+
 tellraw @s [{"text":"--------------------------","color":"gold","bold":true}]
 tellraw @s [{"text":"Floating Texts - OPTIONS\n","color":"gold","bold":true}]
 

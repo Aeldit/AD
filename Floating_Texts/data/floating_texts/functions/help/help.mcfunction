@@ -1,6 +1,6 @@
 ##
  # Description: Displays the help to the player
- # Called by:   player
+ # Called by:   #function -> floating_texts:trigger_help
 ##
 
 tellraw @s [{"text":"--------------------------","color":"gold","bold":true}]

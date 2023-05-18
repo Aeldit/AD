@@ -3,7 +3,7 @@
  # Called by:   #ad:advancements
 ##
 # Adds the selected tag to the targeted text_display
-tag @e[type=text_display,distance=..3,limit=1,sort=nearest] add sp_selected
+tag @e[type=text_display,distance=..3,limit=1,sort=nearest,tag=ft_text_display] add sp_selected
 
 # Sets the color on the sign
 execute if entity @s[scores={ft_color=1}] run setblock ~ ~ ~ oak_sign{Text1: '{"color":"dark_red","nbt":"text","entity":"@e[tag=sp_selected]","interpret":true}'}

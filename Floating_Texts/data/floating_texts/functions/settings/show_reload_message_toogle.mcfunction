@@ -1,6 +1,6 @@
 ##
  # Description:	Enable option to make players glow constantly
- # Called by:	#floating_texts:settings (via chat links)
+ # Called by:	##function -> floating_texts:settings (via chat links)
 ##
 
 execute store success score #ft_success ft_settings run data modify storage floating_texts:settings ft_settings.show_reload_message set value "OFF"

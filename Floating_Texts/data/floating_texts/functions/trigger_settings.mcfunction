@@ -1,6 +1,6 @@
 ##
- # Description: Send a message to the player containing .
- # Called by:   #floating_texts:tick
+ # Description: Display in the player's chat the options corresponding to the trigger it called
+ # Called by:   #schedule_function -> floating_texts:tick
 ##
 
 execute if entity @s[scores={ft_options=1}] run function floating_texts:settings/settings

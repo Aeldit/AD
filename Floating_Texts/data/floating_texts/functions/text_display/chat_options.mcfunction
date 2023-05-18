@@ -1,7 +1,8 @@
 ##
- # Description:	Displays the text options in the player's chat
- # Called by:	Player
+ # Description:	Displays the text options (color, decoration, place & remove) in the player's chat
+ # Called by:	#function -> floating_texts:trigger_settings
 ##
+
 tellraw @s [{"text":"--------------------------","color":"gold","bold":true}]
 tellraw @s [{"text":"Floating Texts - TEXT OPTIONS\n","color":"gold","bold":true}]
 
@@ -11,10 +12,11 @@ tellraw @s [{"text": " |- ","color": "gold"},{"text": "\u25a0","color": "dark_re
 tellraw @s [{"text": "\nSelect the text decoration :","color": "gold"}]
 tellraw @s [{"text": "  - "},{"text": "Bold","bold": true},{"text":" :            ","bold": false},{"text": "Yes","color": "green","bold": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/1_bold_on"}},{"text":" "},{"text": "No","color": "red","bold": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/2_bold_off"}}]
 tellraw @s [{"text": "  - "},{"text": "Italic","italic": true},{"text":" :            ","italic": false},{"text": "Yes","color": "green","italic": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/3_italic_on"}},{"text":" "},{"text": "No","color": "red","italic": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/4_italic_off"}}]
-tellraw @s [{"text": "  - "},{"text": "Obfuscated","obfuscated": true},{"text":" :    ","obfuscated": false},{"text": "Yes","color": "green","obfuscated": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/5_obfuscated_on"}},{"text":" "},{"text": "No","color": "red","obfuscated": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/6_obfuscated_off"}}]
+tellraw @s [{"text": "  - "},{"text": "Magic","obfuscated": true},{"text":" :            ","obfuscated": false},{"text": "Yes","color": "green","obfuscated": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/5_obfuscated_on"}},{"text":" "},{"text": "No","color": "red","obfuscated": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/6_obfuscated_off"}}]
 tellraw @s [{"text": "  - "},{"text": "Strikethrough","strikethrough": true},{"text":" : ","strikethrough": false},{"text": "Yes","color": "green","strikethrough": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/7_strikethrough_on"}},{"text":" ","strikethrough": false},{"text": "No","color": "red","strikethrough": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/8_strikethrough_off"}}]
 tellraw @s [{"text": "  - "},{"text": "Underlined","underlined": true},{"text":" :     ","underlined": false},{"text": "Yes","color": "green","underlined": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/9_underlined_on"}},{"text":" ","underlined": false},{"text": "No","color": "red","underlined": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/10_underlined_off"}}]
 
-tellraw @s [{"text":"\nPlace text display","color":"gold","bold":true,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/create"}}]
+tellraw @s [{"text":"\nPlace text display","color":"dark_aqua","bold":true,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/create"}}]
+tellraw @s [{"text":"Remove text display","color":"dark_aqua","bold":true,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/remove"}}]
 
 tellraw @s [{"text":"\n--------------------------","color":"gold","bold":true}]

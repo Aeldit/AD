@@ -1,9 +1,10 @@
 ##
  # Description: Places a sign with the targeted armor stand's text and the selected color, then sets this text on the text_display
- # Called by:   #ad:advancements
+ # Called by:   #advancements -> ad:ft_0_text_display_click
 ##
+
 tag @e[type=armor_stand,distance=..3,limit=1,sort=nearest] add sp_selected
-tag @e[type=text_display,distance=..3,limit=1,sort=nearest] add sp_selected_2
+tag @e[type=text_display,distance=..3,limit=1,sort=nearest,tag=ft_text_display] add sp_selected_2
 
 execute run setblock ~ ~ ~ oak_sign{Text1: '{"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}'}
 
