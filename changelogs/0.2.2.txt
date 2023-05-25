@@ -1,2 +1,7 @@
-- Added the possibility to remove all text displays from the chat
-- Fixed a bug where the text display would not get the tag 'ft_text_display' when applying a decoration
+Added:
+    - The possibility to remove all text displays from the chat
+    - A way to create and remove text displays in full survival
+      (before this update, you was anloy able to add decoration when in survival with no OP permission)
+    - An option to choose wether or not the players with no OP rights can create / remove / decorate text displays
+Fixed:
+    - Text display would not get the tag 'ft_text_display' when applying a decoration

@@ -53,6 +53,7 @@ execute unless data storage floating_texts:settings ft_settings.msg_to_action_ba
 execute unless data storage floating_texts:settings ft_settings.book_crafting run data modify storage floating_texts:settings ft_settings.book_crafting set value "ON"
 execute unless data storage floating_texts:settings ft_settings.show_reload_message run data modify storage floating_texts:settings ft_settings.show_reload_message set value "ON"
 execute unless data storage floating_texts:settings ft_settings.show_help_msg_on_reload run data modify storage floating_texts:settings ft_settings.show_help_msg_on_reload set value "ON"
+execute unless data storage floating_texts:settings ft_settings.non_op_deco run data modify storage floating_texts:settings ft_settings.non_op_deco set value "ON"
 
 # Notifies in the chat that the datapack has been reloaded
 execute if data storage floating_texts:settings ft_settings{show_reload_message: "ON"} run tellraw @a [{"text":"[Floating Texts] ","color":"red"},{"text":"Reload complete !","color":"gold"}]

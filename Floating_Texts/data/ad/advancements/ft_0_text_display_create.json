@@ -1,10 +1,10 @@
 {
-    "parent": "ad:ft_0_text_display_remove",
+    "parent": "ad:ft_0_text_display_click",
     "display": {
         "icon": {
-            "item": "minecraft:red_dye"
+            "item": "minecraft:armor_stand"
         },
-        "title": "ft_1_dark_red",
+        "title": "ft_0_text_display_create",
         "description": "",
         "show_toast": false,
         "announce_to_chat": false,
@@ -24,7 +24,7 @@
                             "equipment": {
                                 "mainhand": {
                                     "items": [
-                                        "minecraft:red_dye"
+                                        "minecraft:armor_stand"
                                     ]
                                 }
                             }
@@ -34,7 +34,7 @@
             },
             "trigger": "minecraft:location"
         },
-        "dark": {
+        "lime": {
             "conditions": {
                 "player": [
                     {
@@ -44,7 +44,7 @@
                             "equipment": {
                                 "offhand": {
                                     "items": [
-                                        "minecraft:black_dye"
+                                        "minecraft:lime_concrete"
                                     ]
                                 }
                             }
@@ -60,10 +60,10 @@
             "is_sneaking_with_item"
         ],
         [
-            "dark"
+            "lime"
         ]
     ],
     "rewards": {
-        "function": "floating_texts:text_display/dye/1_dark_red"
+        "function": "floating_texts:text_display/create"
     }
 }

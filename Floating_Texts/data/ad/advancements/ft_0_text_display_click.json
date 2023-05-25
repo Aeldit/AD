@@ -1,5 +1,5 @@
 {
-    "parent": "ad:floating_texts",
+    "parent": "ad:ft_0_book_crafting",
     "display": {
         "icon": {
             "item": "minecraft:name_tag"
