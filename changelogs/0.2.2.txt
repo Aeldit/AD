@@ -1,0 +1,2 @@
+- Added the possibility to remove all text displays from the chat
+- Fixed a bug where the text display would not get the tag 'ft_text_display' when applying a decoration

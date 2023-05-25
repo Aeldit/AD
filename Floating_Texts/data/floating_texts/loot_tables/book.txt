@@ -1,6 +1,6 @@
 "{
   CustomModelData:9, 
-  title:\"Floating Texts V2.0\",
+  title:\"Floating Texts V2.2\",
   author:\"Aeldit\",
   datapack:\"Floating Texts\",
   pages: [
@@ -23,6 +23,8 @@
       {\"text\":\"  Place a text display\",\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function floating_texts:text_display/create\"}},
       {\"text\":\"\\\\n\\\\n\",\"color\":\"white\"},
       {\"text\":\" Remove a text display\",\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function floating_texts:text_display/remove\"}},
+      {\"text\":\"\\\\n\",\"color\":\"black\"},
+      {\"text\":\"Remove all text displays\",\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function floating_texts:text_display/remove_all\"}},
       {\"text\":\"\\\\n\\\\n\",\"color\":\"black\"},
       {\"text\":\"\\\\n\\\\n\",\"color\":\"white\"},
       {\"text\":\"          Credits\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/function floating_texts:credits\"}}
