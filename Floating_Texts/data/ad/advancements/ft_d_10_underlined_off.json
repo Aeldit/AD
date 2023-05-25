@@ -1,5 +1,5 @@
 {
-    "parent": "ad:floating_texts",
+    "parent": "ad:ft_d_9_underlined_on",
     "display": {
         "icon": {
             "item": "minecraft:red_dye"

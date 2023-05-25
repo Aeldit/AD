@@ -14,6 +14,14 @@
             {
                 "text": "\n'/function floating_texts:get_book'",
                 "color": "gold"
+            },
+            {
+                "text": "\nor sign a Book & Quill with ",
+                "color": "gray"
+            },
+            {
+                "text": "'FT'",
+                "color": "gold"
             }
         ],
         "show_toast": true,

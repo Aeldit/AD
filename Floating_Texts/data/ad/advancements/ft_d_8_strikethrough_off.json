@@ -1,5 +1,5 @@
 {
-    "parent": "ad:floating_texts",
+    "parent": "ad:ft_d_7_strikethrough_on",
     "display": {
         "icon": {
             "item": "minecraft:red_dye"
