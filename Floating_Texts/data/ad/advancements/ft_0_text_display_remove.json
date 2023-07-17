@@ -1,5 +1,5 @@
 {
-    "parent": "ad:ft_0_text_display_click",
+    "parent": "ad:ft_0_text_display_create",
     "display": {
         "icon": {
             "item": "minecraft:armor_stand"

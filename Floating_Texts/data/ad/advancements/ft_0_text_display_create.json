@@ -1,8 +1,8 @@
 {
-    "parent": "ad:ft_0_text_display_click",
+    "parent": "ad:ft_0_book_crafting",
     "display": {
         "icon": {
-            "item": "minecraft:armor_stand"
+            "item": "minecraft:oak_sign"
         },
         "title": "ft_0_text_display_create",
         "description": "",
@@ -11,56 +11,33 @@
         "hidden": true
     },
     "criteria": {
-        "is_sneaking_with_item": {
+        "click_on_sign": {
             "conditions": {
-                "player": [
+                "location": [
                     {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
+                        "condition": "minecraft:match_tool",
                         "predicate": {
-                            "flags": {
-                                "is_sneaking": true
-                            },
-                            "equipment": {
-                                "mainhand": {
-                                    "items": [
-                                        "minecraft:armor_stand"
-                                    ]
-                                }
+                            "items": [
+                                "minecraft:white_dye"
+                            ]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "tag": "minecraft:all_signs"
                             }
                         }
                     }
                 ]
             },
-            "trigger": "minecraft:location"
-        },
-        "lime": {
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "equipment": {
-                                "offhand": {
-                                    "items": [
-                                        "minecraft:lime_concrete"
-                                    ]
-                                }
-                            }
-                        }
-                    }
-                ]
-            },
-            "trigger": "minecraft:location"
+            "trigger": "minecraft:item_used_on_block"
         }
     },
     "requirements": [
         [
-            "is_sneaking_with_item"
-        ],
-        [
-            "lime"
+            "click_on_sign"
         ]
     ],
     "rewards": {
