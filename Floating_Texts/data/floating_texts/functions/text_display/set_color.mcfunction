@@ -1,8 +1,8 @@
 ##
  # Description: Places a sign with the targeted armor stand's text and the selected color, then sets this text back on the armor stand
- # Called by:   #ad:advancements
+ # Called by:   #advancements -> ad:ft_1_dark_red --- ft_d_10_underlined_off
 ##
-# Adds the selected tag to the targeted armor_stand
+# Adds the selected tag to the targeted armor stand
 tag @e[type=armor_stand,distance=..3,limit=1,sort=nearest] add sp_selected
 
 # Sets the color on the sign
@@ -31,6 +31,9 @@ setblock ~ ~ ~ air
 
 # Sets the armor stand Invisible, Invulnerable and shows its Custom Name. Also removes its gravity
 function floating_texts:armor_stands/activate
+
+# Adds the 'ft_text_display' tag so we can know at any time which armor stand was modified by this datapack
+tag @e[type=armor_stand,distance=..3,limit=1,sort=nearest,tag=sp_selected] add ft_text_display
 
 # Removes tags and resets scores
 tag @e[type=armor_stand,distance=..3,limit=1,sort=nearest,tag=sp_selected] remove sp_selected
