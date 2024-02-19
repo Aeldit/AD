@@ -2,8 +2,8 @@
  # Description: Places a sign with the targeted armor stand's text and the selected color, then sets this text back on the armor stand
  # Called by:   #ad:advancements
 ##
-# Adds the selected tag to the targeted text_display
-tag @e[type=text_display,distance=..3,limit=1,sort=nearest,tag=ft_text_display] add sp_selected
+# Adds the selected tag to the targeted armor_stand
+tag @e[type=armor_stand,distance=..3,limit=1,sort=nearest] add sp_selected
 
 # Sets the color on the sign
 execute if entity @s[scores={ft_color=1}] run setblock ~ ~ ~ oak_sign{front_text: {messages: ['{"color":"dark_red","nbt":"text","entity":"@e[tag=sp_selected]","interpret":true}']}}
@@ -24,12 +24,15 @@ execute if entity @s[scores={ft_color=15}] run setblock ~ ~ ~ oak_sign{front_tex
 execute if entity @s[scores={ft_color=16}] run setblock ~ ~ ~ oak_sign{front_text: {messages: ['{"color":"black","nbt":"text","entity":"@e[tag=sp_selected]","interpret":true}']}}
 
 # Copy the text of the sign to the armor stand's name
-data modify entity @e[type=text_display,distance=..3,limit=1,tag=sp_selected] text set from block ~ ~ ~ front_text.messages[0]
+data modify entity @e[type=armor_stand,distance=..3,limit=1,tag=sp_selected] CustomName set from block ~ ~ ~ front_text.messages[0]
 
 # Removes the sign
 setblock ~ ~ ~ air
 
+# Sets the armor stand Invisible, Invulnerable and shows its Custom Name. Also removes its gravity
+function floating_texts:armor_stands/activate
+
 # Removes tags and resets scores
-tag @e[type=text_display,distance=..3,limit=1,sort=nearest,tag=sp_selected] remove sp_selected
+tag @e[type=armor_stand,distance=..3,limit=1,sort=nearest,tag=sp_selected] remove sp_selected
 scoreboard players set @s ft_color 0
 scoreboard players enable @s ft_color

@@ -1,10 +1,10 @@
 {
-    "parent": "ad:ft_0_text_display_create",
+    "parent": "ad:floating_texts",
     "display": {
         "icon": {
-            "item": "minecraft:armor_stand"
+            "item": "minecraft:red_dye"
         },
-        "title": "ft_0_text_display_remove",
+        "title": "ft_0_locate_target",
         "description": "",
         "show_toast": false,
         "announce_to_chat": false,
@@ -24,27 +24,7 @@
                             "equipment": {
                                 "mainhand": {
                                     "items": [
-                                        "minecraft:armor_stand"
-                                    ]
-                                }
-                            }
-                        }
-                    }
-                ]
-            },
-            "trigger": "minecraft:location"
-        },
-        "red": {
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "equipment": {
-                                "offhand": {
-                                    "items": [
-                                        "minecraft:red_concrete"
+                                        "minecraft:stick"
                                     ]
                                 }
                             }
@@ -58,12 +38,9 @@
     "requirements": [
         [
             "is_sneaking_with_item"
-        ],
-        [
-            "red"
         ]
     ],
     "rewards": {
-        "function": "floating_texts:text_display/remove"
+        "function": "floating_texts:floating_texts/locate_target"
     }
 }
