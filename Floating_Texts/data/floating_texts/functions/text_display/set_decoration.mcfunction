@@ -3,7 +3,7 @@
  # Called by:   #floating_texts:tick
 ##
 # Adds the selected tag to the targeted armor stand
-tag @e[type=armor_stand,distance=..3,limit=1,sort=nearest,tag=ft_text_display] add sp_selected
+tag @e[type=armor_stand,distance=..3,limit=1,sort=nearest] add sp_selected
 
 # Sets the decoration on the sign's text
 execute if entity @s[scores={ft_decoration=1}] run setblock ~ ~ ~ oak_sign{front_text: {messages: ['{"bold":true,"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}', '{"text":""}', '{"text":""}', '{"text":""}']}}
