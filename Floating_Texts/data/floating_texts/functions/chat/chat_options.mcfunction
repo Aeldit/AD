@@ -1,6 +1,6 @@
 ##
  # Description:	Displays the text options (color, decoration, place & remove) in the player's chat
- # Called by:	#function -> floating_texts:trigger_settings
+ # Called by:	#command
 ##
 
 tellraw @s [{"text":"--------------------------","color":"gold","bold":true}]
@@ -16,7 +16,7 @@ tellraw @s [{"text": "  - "},{"text": "Magic","obfuscated": true},{"text":" :   
 tellraw @s [{"text": "  - "},{"text": "Strikethrough","strikethrough": true},{"text":" : ","strikethrough": false},{"text": "Yes","color": "green","strikethrough": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/7_strikethrough_on"}},{"text":" ","strikethrough": false},{"text": "No","color": "red","strikethrough": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/8_strikethrough_off"}}]
 tellraw @s [{"text": "  - "},{"text": "Underlined","underlined": true},{"text":" :     ","underlined": false},{"text": "Yes","color": "green","underlined": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/9_underlined_on"}},{"text":" ","underlined": false},{"text": "No","color": "red","underlined": false,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/deco/10_underlined_off"}}]
 
-tellraw @s [{"text":"\nPlace text display","color":"dark_aqua","bold":true,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/create"}}]
-tellraw @s [{"text":"Remove text display","color":"dark_aqua","bold":true,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/remove"}}]
+tellraw @s [{"text":"\nRemove text display","color":"dark_aqua","bold":true,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/remove"}}]
+tellraw @s [{"text":"Remove all text display","color":"dark_aqua","bold":true,"clickEvent": {"action": "run_command","value": "/function floating_texts:text_display/remove_all"}}]
 
-tellraw @s [{"text":"\n--------------------------","color":"gold","bold":true}]
+tellraw @s [{"text":"--------------------------","color":"gold","bold":true}]
