@@ -2,11 +2,9 @@
 
 > ❗If you fork this repository, you have to put a direct link to it, and specify clearly that your repo is a fork of this one
 
-Here are the links to the README.md of each pack in this repository (all badges are clickable)
+[![modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/datapack/floating-texts)
 
-[![modrinth_link](https://img.shields.io/modrinth/dt/floating-texts?color=ae0000&labelColor=ae0000&label=Floating%20Texts&logo=modrinth&style=for-the-badge)](Floating_Texts/README.md)
-
-> To uninstall any of the above packs, enter `/function <datapack_name>:uninstall` and `/datapack disable "DatapackName.zip"`
+> To uninstall any of the above packs, enter `/function <datapack_name>:uninstall` and `/datapack disable "DatapackName.zip"`, then remove the file from your datapacks folder
 
 ***
 
