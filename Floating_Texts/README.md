@@ -1,4 +1,4 @@
-![banner](https://github.com/Aeldit/AD/blob/1.20.x/images/banner_small.png?raw=true)
+![banner](https://github.com/Aeldit/Aeldit/blob/main/banners/floating_texts.png?raw=true)
 
 ## This datapack allows you to create floating texts, using armor stands
 
@@ -18,27 +18,26 @@ allowfullscreen></iframe>
 
 > These are the different modifications you can bring to your texts (you can change do this with the book or in the chat)
 
-![page_1](https://github.com/Aeldit/AD/blob/1.20.x/images/ft_page_1.png?raw=true) ![page_2](https://github.com/Aeldit/AD/blob/1.20.x/images/ft_page_2.png?raw=true) ![page_3](https://github.com/Aeldit/AD/blob/1.20.x/images/ft_page_3.png?raw=true)
+![page_1](https://github.com/Aeldit/Aeldit/blob/main/floating_texts/ft_page_1.png?raw=true) ![page_2](https://github.com/Aeldit/Aeldit/blob/main/floating_texts/ft_page_2.png?raw=true) ![page_3](https://github.com/Aeldit/Aeldit/blob/main/floating_texts/ft_page_3.png?raw=true)
 
 > To obtain the book you can :
->
-> 1. Sign a book & quill with FT
+> 1. Sign a book & quill with `FT`
 > 2. Use the chat options (enter ```/function floating_texts:chat/chat_options``` in the chat to access them)
 
-![options_chat](https://github.com/Aeldit/AD/blob/1.20.x/images/ft_options_chat.png?raw=true)
+![options_chat](https://github.com/Aeldit/Aeldit/blob/main/floating_texts/ft_options_chat.png?raw=true)
 
 > and here is what it can look like
 
-![example](https://github.com/Aeldit/AD/blob/1.20.x/images/ft_example.png?raw=true)
+![example](https://github.com/Aeldit/Aeldit/blob/main/floating_texts/ft_example.png?raw=true)
 
 > You can edit some options too !
 > (enter ```/function floating_texts:settings/settings``` in the chat)
 
-![options](https://github.com/Aeldit/AD/blob/1.20.x/images/ft_settings.png?raw=true)
+![options](https://github.com/Aeldit/Aeldit/blob/main/floating_texts/ft_settings.png?raw=true)
 
 ***
 
-> If you find any issue, please make sure to report it on github so I can fix it (both badges can be clicked on to
+> If you find any issue, please make sure to report it on GitHub so I can fix it (both badges can be clicked on to
 > follow the link)
 >
 > [![github_issues](https://img.shields.io/github/issues/Aeldit/Cyan?color=red&style=for-the-badge&logo=github)](https://github.com/Aeldit/Cyan/issues)
