@@ -8,11 +8,7 @@ You can then change the color and the decoration (bold, underlined, ...) of the 
 2. With the chat, which also requires the function commands permission
 3. (Not implemented yet) With dyes (and other items that are easy to obtain in survival), which is fully survival and does not require any OP permission
 
- <iframe width="560" height="315"
-src="https://www.youtube.com/embed/bZK_s5yo_Lg"
-frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
+![](ft_demo.mp4)
 
 ***
 
