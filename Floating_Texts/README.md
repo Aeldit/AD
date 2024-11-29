@@ -8,9 +8,7 @@ You can then change the color and the decoration (bold, underlined, ...) of the 
 2. With the chat, which also requires the function commands permission
 3. (Not implemented yet) With dyes (and other items that are easy to obtain in survival), which is fully survival and does not require any OP permission
 
-<video width="320" height="240" controls>
-  <source src="ft_demo.mp4" type="video/mp4">
-</video>
+https://github.com/Aeldit/AD/blob/1.21-1.21.1/Floating_Texts/ft_demo.mp4
 
 ***
 
