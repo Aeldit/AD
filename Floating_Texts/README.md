@@ -29,11 +29,9 @@ You can then change the color and the decoration (bold, underlined, ...) of the 
 
 ![options](https://github.com/Aeldit/Aeldit/blob/main/floating_texts/ft_settings.png?raw=true)
 
-
-
-https://github.com/user-attachments/assets/19da8cd5-2821-45ab-a4fb-f8515c74d484
-
-
+<video width="320" height="240" controls>
+  <source src="../docs/ft_demo.mp4" type="video/mp4">
+</video>
 
 ***
 
