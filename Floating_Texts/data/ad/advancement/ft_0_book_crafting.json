@@ -2,7 +2,7 @@
     "parent": "ad:floating_texts",
     "display": {
         "icon": {
-            "item": "minecraft:writable_book"
+            "id": "minecraft:writable_book"
         },
         "title": "ft_0_book_crafting",
         "description": "",
@@ -16,10 +16,12 @@
             "conditions": {
                 "items": [
                     {
-                        "items": [
-                            "minecraft:written_book"
-                        ],
-                        "nbt": "{title:\"FT\"}"
+                        "id": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:written_book_content": {
+                                "title": "FT"
+                            }
+                        }
                     }
                 ]
             }

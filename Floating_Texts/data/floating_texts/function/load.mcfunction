@@ -4,8 +4,6 @@
 ##
 #
 
-tellraw @a "Initializing"
-
 # Scoreboards initialisation
 scoreboard objectives add ft_color trigger
 scoreboard objectives add ft_decoration trigger

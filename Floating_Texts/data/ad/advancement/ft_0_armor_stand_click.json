@@ -2,7 +2,7 @@
     "parent": "ad:floating_texts",
     "display": {
         "icon": {
-            "item": "minecraft:name_tag"
+            "id": "minecraft:name_tag"
         },
         "title": "ft_0_armor_stand_click",
         "description": "",
@@ -23,9 +23,7 @@
             "trigger": "using_item",
             "conditions": {
                 "item": {
-                    "items": [
-                        "minecraft:name_tag"
-                    ]
+                    "id": "minecraft:name_tag"
                 }
             }
         }

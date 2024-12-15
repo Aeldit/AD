@@ -2,7 +2,7 @@
     "parent": "ad:root",
     "display": {
         "icon": {
-            "item": "minecraft:armor_stand"
+            "id": "minecraft:armor_stand"
         },
         "title": "Floating Texts                           ",
         "description": [
