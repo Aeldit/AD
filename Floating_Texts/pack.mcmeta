@@ -3,21 +3,39 @@
         "pack_format": 15,
         "supported_formats": {
             "min_inclusive": 15,
-            "max_inclusive": 26
+            "max_inclusive": 48
         },
         "description": [
             {
-                "text": "Floating Texts V3.0",
+                "text": "Floating Texts",
                 "color": "gold"
             },
             {
-                "text": " MC 1.20.x",
+                "text": " MC 1.20.x-1.21.x",
                 "color": "dark_aqua"
             },
             {
-                "text": "\n[by Aeldit]",
+                "text": " [by Aeldit]",
                 "color": "dark_red"
             }
         ]
-    }
+    },
+    "overlays": {
+		"entries": [
+			{
+				"formats": [
+					15,
+					41
+				],
+				"directory": "1.20.x-overlay"
+			},
+			{
+				"formats": [
+					48,
+					61
+				],
+				"directory": "1.21.x-overlay"
+			}
+		]
+	}
 }
