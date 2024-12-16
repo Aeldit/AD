@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: Aeldit}"
+        },
+        "title": "Aeldit's Datapacks",
+        "description": [
+            {
+                "text": "See all my packs at ",
+                "color": "gold"
+            },
+            {
+                "text": "https://modrinth.com/user/Aeldit",
+                "color": "red"
+            }
+        ],
+        "announce_to_chat": false,
+        "show_toast": false,
+        "frame": "challenge",
+        "background": "minecraft:textures/block/mud.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

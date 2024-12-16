@@ -1,0 +1,36 @@
+{
+    "parent": "ad:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:armor_stand"
+        },
+        "title": "Floating Texts                           ",
+        "description": [
+            "",
+            {
+                "text": "To obtain the book (that allows you to use the functionalities of the datapack), enter",
+                "color": "gray"
+            },
+            {
+                "text": "\n'/function floating_texts:get_book'",
+                "color": "gold"
+            },
+            {
+                "text": "\nor sign a Book & Quill with ",
+                "color": "gray"
+            },
+            {
+                "text": "'FT'",
+                "color": "gold"
+            }
+        ],
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
