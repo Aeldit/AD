@@ -3,7 +3,6 @@
  # Called by:    #function -> minecraft:load
 ##
 #
-tellraw @a "Initializing"
 
 # Scoreboards initialisation
 scoreboard objectives add ft_color trigger

@@ -1,0 +1,38 @@
+{
+    "parent": "ad:floating_texts",
+    "display": {
+        "icon": {
+            "id": "minecraft:writable_book"
+        },
+        "title": "ft_0_book_crafting",
+        "description": "",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "has_book": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "id": "minecraft:written_book",
+                        "predicates": {
+                            "minecraft:written_book_content": {
+                                "title": "FT"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_book"
+        ]
+    ],
+    "rewards": {
+        "function": "floating_texts:help/replace_book"
+    }
+}
