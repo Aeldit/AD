@@ -27,15 +27,11 @@
 				"directory": "1-20-5_1-20-6_overlay"
 			},
 			{
-				"formats": 48,
-				"directory": "1-21_1-21-1_overlay"
-			},
-			{
 				"formats": {
-                    "min_inclusive": 57,
+                    "min_inclusive": 48,
                     "max_inclusive": 61
 				},
-				"directory": "1-21_2-21-4_overlay"
+				"directory": "1-21-x_overlay"
 			}
 		]
 	}
