@@ -1,8 +1,8 @@
 {
     "pack": {
-        "pack_format": 15,
+        "pack_format": 12,
         "supported_formats": {
-            "min_inclusive": 15,
+            "min_inclusive": 12,
             "max_inclusive": 61
         },
         "description": [
@@ -11,7 +11,7 @@
                 "color": "gold"
             },
             {
-                "text": " MC 1.20.x-1.21.x",
+                "text": " MC 1.19.4-1.21.x",
                 "color": "dark_aqua"
             },
             {

@@ -6,6 +6,21 @@
 tag @e[type=armor_stand,distance=..3,limit=1,sort=nearest] add sp_selected
 
 # Sets the decoration on the sign's text
+#ver=1.19.4
+execute if entity @s[scores={ft_decoration=1}] run setblock ~ ~ ~ oak_sign{Text1: '{"bold":true,"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}'}
+execute if entity @s[scores={ft_decoration=2}] run setblock ~ ~ ~ oak_sign{Text1: '{"bold":false,"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}'}
+execute if entity @s[scores={ft_decoration=3}] run setblock ~ ~ ~ oak_sign{Text1: '{"italic":true,"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}'}
+execute if entity @s[scores={ft_decoration=4}] run setblock ~ ~ ~ oak_sign{Text1: '{"italic":false,"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}'}
+execute if entity @s[scores={ft_decoration=5}] run setblock ~ ~ ~ oak_sign{Text1: '{"obfuscated":true,"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}'}
+execute if entity @s[scores={ft_decoration=6}] run setblock ~ ~ ~ oak_sign{Text1: '{"obfuscated":false,"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}'}
+execute if entity @s[scores={ft_decoration=7}] run setblock ~ ~ ~ oak_sign{Text1: '{"strikethrough":true,"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}'}
+execute if entity @s[scores={ft_decoration=8}] run setblock ~ ~ ~ oak_sign{Text1: '{"strikethrough":false,"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}'}
+execute if entity @s[scores={ft_decoration=9}] run setblock ~ ~ ~ oak_sign{Text1: '{"underlined":true,"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}'}
+execute if entity @s[scores={ft_decoration=10}] run setblock ~ ~ ~ oak_sign{Text1: '{"underlined":false,"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}'}
+
+# Copy the text of the sign to the armor stand's name
+data modify entity @e[type=armor_stand,distance=..3,limit=1,tag=sp_selected] CustomName set from block ~ ~ ~ Text1
+#elsever
 execute if entity @s[scores={ft_decoration=1}] run setblock ~ ~ ~ oak_sign{front_text: {messages: ['{"bold":true,"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}', '{"text":""}', '{"text":""}', '{"text":""}']}}
 execute if entity @s[scores={ft_decoration=2}] run setblock ~ ~ ~ oak_sign{front_text: {messages: ['{"bold":false,"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}', '{"text":""}', '{"text":""}', '{"text":""}']}}
 execute if entity @s[scores={ft_decoration=3}] run setblock ~ ~ ~ oak_sign{front_text: {messages: ['{"italic":true,"nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}', '{"text":""}', '{"text":""}', '{"text":""}']}}
@@ -19,6 +34,7 @@ execute if entity @s[scores={ft_decoration=10}] run setblock ~ ~ ~ oak_sign{fron
 
 # Copy the text of the sign to the armor stand's name
 data modify entity @e[type=armor_stand,distance=..3,limit=1,tag=sp_selected] CustomName set from block ~ ~ ~ front_text.messages[0]
+#endver
 
 # Removes the sign
 setblock ~ ~ ~ air
