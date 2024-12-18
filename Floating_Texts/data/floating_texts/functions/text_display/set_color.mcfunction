@@ -26,7 +26,7 @@ execute if entity @s[scores={ft_color=16}] run setblock ~ ~ ~ oak_sign{Text1: '{
 
 # Copy the text of the sign to the armor stand's name
 data modify entity @e[type=armor_stand,distance=..3,limit=1,tag=sp_selected] CustomName set from block ~ ~ ~ Text1
-#elsever
+#ver=1.20.x-1.21.x
 execute if entity @s[scores={ft_color=1}] run setblock ~ ~ ~ oak_sign{front_text: {messages: ['{"color":"dark_red","nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}', '{"text":""}', '{"text":""}', '{"text":""}']}}
 execute if entity @s[scores={ft_color=2}] run setblock ~ ~ ~ oak_sign{front_text: {messages: ['{"color":"red","nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}', '{"text":""}', '{"text":""}', '{"text":""}']}}
 execute if entity @s[scores={ft_color=3}] run setblock ~ ~ ~ oak_sign{front_text: {messages: ['{"color":"gold","nbt":"CustomName","entity":"@e[tag=sp_selected]","interpret":true}', '{"text":""}', '{"text":""}', '{"text":""}']}}
