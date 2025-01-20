@@ -44,7 +44,7 @@
                                         "color": "black"
                                     },
                                     {
-                                        "text": "          Colors\n",
+                                        "text": "          Colors\n\n",
                                         "color": "red",
                                         "clickEvent": {
                                             "action": "change_page",
@@ -60,22 +60,6 @@
                                         }
                                     },
                                     {
-                                        "text": " Remove a text display\n",
-                                        "color": "dark_aqua",
-                                        "clickEvent": {
-                                            "action": "run_command",
-                                            "value": "/function floating_texts:text_display/remove"
-                                        }
-                                    },
-                                    {
-                                        "text": "     Remove all text\n         displays\n",
-                                        "color": "dark_aqua",
-                                        "clickEvent": {
-                                            "action": "run_command",
-                                            "value": "/function floating_texts:text_display/remove_all"
-                                        }
-                                    },
-                                    {
                                         "text": "      Locate target\n\n",
                                         "color": "dark_aqua",
                                         "clickEvent": {
@@ -84,11 +68,19 @@
                                         }
                                     },
                                     {
-                                        "text": "          Credits",
+                                        "text": "          Credits\n\n",
                                         "color": "dark_green",
                                         "clickEvent": {
                                             "action": "run_command",
                                             "value": "/function floating_texts:credits"
+                                        }
+                                    },
+                                    {
+                                        "text": "      Suppressions",
+                                        "color": "dark_purple",
+                                        "clickEvent": {
+                                            "action": "change_page",
+                                            "value": "4"
                                         }
                                     }
                                 ],
@@ -387,6 +379,53 @@
                                         "clickEvent": {
                                             "action": "run_command",
                                             "value": "/function floating_texts:text_display/deco/10_underlined_off"
+                                        }
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "\u00ab",
+                                        "color": "red",
+                                        "clickEvent": {
+                                            "action": "change_page",
+                                            "value": "1"
+                                        }
+                                    },
+                                    {
+                                        "text": "    Suppressions   ",
+                                        "color": "dark_blue"
+                                    },
+                                    {
+                                        "text": "\u24be\n",
+                                        "color": "red",
+                                        "hoverEvent": {
+                                            "action": "show_text",
+                                            "contents": [
+                                                {
+                                                    "text": "Allows you to remove one or all the text display armor stands.",
+                                                    "color": "green"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "text": "-------------------\n\n",
+                                        "color": "dark_red"
+                                    },
+                                    {
+                                        "text": "\n   Remove the closest\n       text display\n\n\n",
+                                        "color": "light_purple",
+                                        "clickEvent": {
+                                            "action": "run_command",
+                                            "value": "/function floating_texts:text_display/remove"
+                                        }
+                                    },
+                                    {
+                                        "text": "\n\n     Remove all text\n         displays\n",
+                                        "color": "dark_red",
+                                        "clickEvent": {
+                                            "action": "run_command",
+                                            "value": "/function floating_texts:text_display/remove_all"
                                         }
                                     }
                                 ]
