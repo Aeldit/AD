@@ -38,7 +38,7 @@ You can then change the color and the decoration (bold, underlined, ...) of the 
 > If you find any issue, please make sure to report it on GitHub so I can fix it (both badges can be clicked on to
 > follow the link)
 >
-> [![github_issues](https://img.shields.io/github/issues/Aeldit/Cyan?color=red&style=for-the-badge&logo=github)](https://github.com/Aeldit/Cyan/issues)
+> [![github_issues](https://img.shields.io/github/issues/Aeldit/AD?color=red&style=for-the-badge&logo=github)](https://github.com/Aeldit/AD/issues)
 >
 > If you have a suggestion, you can go on my discord server and create a post in 🗽-suggestions-forum
 >
