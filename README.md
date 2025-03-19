@@ -11,7 +11,7 @@
 > If you find an issue in any of these packs, please make sure to report it on GitHub so I can fix it (both badges can be clicked on to
 > follow the link)
 >
-> [![github_issues](https://img.shields.io/github/issues/Aeldit/CTMSelector?color=red&style=for-the-badge&logo=github)](https://github.com/Aeldit/AD/issues)
+> [![github_issues](https://img.shields.io/github/issues/Aeldit/AD?color=red&style=for-the-badge&logo=github)](https://github.com/Aeldit/AD/issues)
 >
 > If you have a suggestion, you can go on my discord server and create a post in 🖍️-suggestion
 >
